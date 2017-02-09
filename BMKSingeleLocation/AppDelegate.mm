@@ -7,8 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import <BaiduMapAPI_Map/BMKMapComponent.h>
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
-@interface AppDelegate ()
+#import "ViewController.h"
+
+
+@interface AppDelegate ()<BMKGeneralDelegate>
 
 @end
 
@@ -17,6 +23,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //百度地图
+    if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0){
+        
+        static CLLocationManager *manager = [[CLLocationManager alloc] init];
+        [manager requestWhenInUseAuthorization];
+    }
+    
+    if (![[[BMKMapManager alloc]init] start:@"UKokPI3NMq3VfTUtpN7YEoA1svtv76Kf" generalDelegate:self]) {
+        NSLog(@"百度地图启动失败");
+    }else{
+        NSLog(@"百度地图启动成功");
+    }
+    //高德地图
+    [AMapServices sharedServices].apiKey = @"0c58d571a36a4e6eb6655a2a0c7c06f2";
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = [[ViewController alloc] init];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

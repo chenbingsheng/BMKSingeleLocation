@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51C714C68172DC989885F211 /* libPods-BMKSingeleLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0912A8A5159DCD6B060C3020 /* libPods-BMKSingeleLocation.a */; };
 		6AE0A9691D755AA500CC10FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0A9681D755AA500CC10FE /* main.m */; };
-		6AE0A96C1D755AA500CC10FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0A96B1D755AA500CC10FE /* AppDelegate.m */; };
+		6AE0A96C1D755AA500CC10FE /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0A96B1D755AA500CC10FE /* AppDelegate.mm */; };
 		6AE0A96F1D755AA500CC10FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0A96E1D755AA500CC10FE /* ViewController.m */; };
 		6AE0A9721D755AA500CC10FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0A9701D755AA500CC10FE /* Main.storyboard */; };
 		6AE0A9741D755AA500CC10FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0A9731D755AA500CC10FE /* Assets.xcassets */; };
 		6AE0A9771D755AA500CC10FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0A9751D755AA500CC10FE /* LaunchScreen.storyboard */; };
 		6AE0A9821D755AA500CC10FE /* BMKSingeleLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0A9811D755AA500CC10FE /* BMKSingeleLocationTests.m */; };
 		6AE0A98D1D755AA500CC10FE /* BMKSingeleLocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0A98C1D755AA500CC10FE /* BMKSingeleLocationUITests.m */; };
+		6AE0A99E1D755B6500CC10FE /* BSAMapLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0A99B1D755B6500CC10FE /* BSAMapLocationManager.m */; };
+		6AE0A99F1D755B6500CC10FE /* BSBMKLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0A99D1D755B6500CC10FE /* BSBMKLocationManager.m */; };
+		6AE0A9A21D755D0500CC10FE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0A9A11D755D0500CC10FE /* Info.plist */; };
+		6AE0A9A41D755D6200CC10FE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE0A9A31D755D6200CC10FE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +40,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0912A8A5159DCD6B060C3020 /* libPods-BMKSingeleLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BMKSingeleLocation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE0A9641D755AA500CC10FE /* BMKSingeleLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMKSingeleLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE0A9681D755AA500CC10FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AE0A96A1D755AA500CC10FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6AE0A96B1D755AA500CC10FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AE0A96B1D755AA500CC10FE /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		6AE0A96D1D755AA500CC10FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6AE0A96E1D755AA500CC10FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6AE0A9711D755AA500CC10FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6AE0A9731D755AA500CC10FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AE0A9761D755AA500CC10FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6AE0A9781D755AA500CC10FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE0A97D1D755AA500CC10FE /* BMKSingeleLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMKSingeleLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE0A9811D755AA500CC10FE /* BMKSingeleLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMKSingeleLocationTests.m; sourceTree = "<group>"; };
 		6AE0A9831D755AA500CC10FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE0A9881D755AA500CC10FE /* BMKSingeleLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMKSingeleLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE0A98C1D755AA500CC10FE /* BMKSingeleLocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMKSingeleLocationUITests.m; sourceTree = "<group>"; };
 		6AE0A98E1D755AA500CC10FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE0A99A1D755B6500CC10FE /* BSAMapLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAMapLocationManager.h; sourceTree = "<group>"; };
+		6AE0A99B1D755B6500CC10FE /* BSAMapLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAMapLocationManager.m; sourceTree = "<group>"; };
+		6AE0A99C1D755B6500CC10FE /* BSBMKLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBMKLocationManager.h; sourceTree = "<group>"; };
+		6AE0A99D1D755B6500CC10FE /* BSBMKLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBMKLocationManager.m; sourceTree = "<group>"; };
+		6AE0A9A11D755D0500CC10FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE0A9A31D755D6200CC10FE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1AC7FB6BD7C049D88EA2C73 /* Pods-BMKSingeleLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMKSingeleLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMKSingeleLocation/Pods-BMKSingeleLocation.release.xcconfig"; sourceTree = "<group>"; };
+		E5F5EC3CED7E10133FE5CBD9 /* Pods-BMKSingeleLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMKSingeleLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMKSingeleLocation/Pods-BMKSingeleLocation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C714C68172DC989885F211 /* libPods-BMKSingeleLocation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +92,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43EC256D196FFB20E3AFA6E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0912A8A5159DCD6B060C3020 /* libPods-BMKSingeleLocation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6AE0A95B1D755AA500CC10FE = {
 			isa = PBXGroup;
 			children = (
+				6AE0A9A31D755D6200CC10FE /* Default-568h@2x.png */,
+				6AE0A9A01D755B6A00CC10FE /* BSLocationManager */,
 				6AE0A9661D755AA500CC10FE /* BMKSingeleLocation */,
 				6AE0A9801D755AA500CC10FE /* BMKSingeleLocationTests */,
 				6AE0A98B1D755AA500CC10FE /* BMKSingeleLocationUITests */,
 				6AE0A9651D755AA500CC10FE /* Products */,
+				7A4D330E8C7623376019B18C /* Pods */,
+				43EC256D196FFB20E3AFA6E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +128,13 @@
 			isa = PBXGroup;
 			children = (
 				6AE0A96A1D755AA500CC10FE /* AppDelegate.h */,
-				6AE0A96B1D755AA500CC10FE /* AppDelegate.m */,
+				6AE0A96B1D755AA500CC10FE /* AppDelegate.mm */,
 				6AE0A96D1D755AA500CC10FE /* ViewController.h */,
 				6AE0A96E1D755AA500CC10FE /* ViewController.m */,
 				6AE0A9701D755AA500CC10FE /* Main.storyboard */,
 				6AE0A9731D755AA500CC10FE /* Assets.xcassets */,
 				6AE0A9751D755AA500CC10FE /* LaunchScreen.storyboard */,
-				6AE0A9781D755AA500CC10FE /* Info.plist */,
+				6AE0A9A11D755D0500CC10FE /* Info.plist */,
 				6AE0A9671D755AA500CC10FE /* Supporting Files */,
 			);
 			path = BMKSingeleLocation;
@@ -140,6 +166,26 @@
 			path = BMKSingeleLocationUITests;
 			sourceTree = "<group>";
 		};
+		6AE0A9A01D755B6A00CC10FE /* BSLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				6AE0A99A1D755B6500CC10FE /* BSAMapLocationManager.h */,
+				6AE0A99B1D755B6500CC10FE /* BSAMapLocationManager.m */,
+				6AE0A99C1D755B6500CC10FE /* BSBMKLocationManager.h */,
+				6AE0A99D1D755B6500CC10FE /* BSBMKLocationManager.m */,
+			);
+			name = BSLocationManager;
+			sourceTree = "<group>";
+		};
+		7A4D330E8C7623376019B18C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5F5EC3CED7E10133FE5CBD9 /* Pods-BMKSingeleLocation.debug.xcconfig */,
+				A1AC7FB6BD7C049D88EA2C73 /* Pods-BMKSingeleLocation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AE0A9911D755AA500CC10FE /* Build configuration list for PBXNativeTarget "BMKSingeleLocation" */;
 			buildPhases = (
+				233DD988903178C246F2C3AF /* 📦 Check Pods Manifest.lock */,
 				6AE0A9601D755AA500CC10FE /* Sources */,
 				6AE0A9611D755AA500CC10FE /* Frameworks */,
 				6AE0A9621D755AA500CC10FE /* Resources */,
+				EDE48C8CEA69F945D1C9BA6F /* 📦 Embed Pods Frameworks */,
+				D9C01848576EB81A1A08F9A0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +256,7 @@
 				TargetAttributes = {
 					6AE0A9631D755AA500CC10FE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C4W5BQ8SZP;
 					};
 					6AE0A97C1D755AA500CC10FE = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,8 +293,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AE0A9A21D755D0500CC10FE /* Info.plist in Resources */,
 				6AE0A9771D755AA500CC10FE /* LaunchScreen.storyboard in Resources */,
 				6AE0A9741D755AA500CC10FE /* Assets.xcassets in Resources */,
+				6AE0A9A41D755D6200CC10FE /* Default-568h@2x.png in Resources */,
 				6AE0A9721D755AA500CC10FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +317,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		233DD988903178C246F2C3AF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C01848576EB81A1A08F9A0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMKSingeleLocation/Pods-BMKSingeleLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE48C8CEA69F945D1C9BA6F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BMKSingeleLocation/Pods-BMKSingeleLocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6AE0A9601D755AA500CC10FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6AE0A96F1D755AA500CC10FE /* ViewController.m in Sources */,
-				6AE0A96C1D755AA500CC10FE /* AppDelegate.m in Sources */,
+				6AE0A96C1D755AA500CC10FE /* AppDelegate.mm in Sources */,
+				6AE0A99E1D755B6500CC10FE /* BSAMapLocationManager.m in Sources */,
 				6AE0A9691D755AA500CC10FE /* main.m in Sources */,
+				6AE0A99F1D755B6500CC10FE /* BSBMKLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,22 +513,28 @@
 		};
 		6AE0A9921D755AA500CC10FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F5EC3CED7E10133FE5CBD9 /* Pods-BMKSingeleLocation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C4W5BQ8SZP;
 				INFOPLIST_FILE = BMKSingeleLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Lateral-spreads.BMKSingeleLocation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jykj.coffeeme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		6AE0A9931D755AA500CC10FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1AC7FB6BD7C049D88EA2C73 /* Pods-BMKSingeleLocation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C4W5BQ8SZP;
 				INFOPLIST_FILE = BMKSingeleLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Lateral-spreads.BMKSingeleLocation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jykj.coffeeme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +604,7 @@
 				6AE0A9931D755AA500CC10FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AE0A9941D755AA500CC10FE /* Build configuration list for PBXNativeTarget "BMKSingeleLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +613,7 @@
 				6AE0A9961D755AA500CC10FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AE0A9971D755AA500CC10FE /* Build configuration list for PBXNativeTarget "BMKSingeleLocationUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +622,7 @@
 				6AE0A9991D755AA500CC10FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
